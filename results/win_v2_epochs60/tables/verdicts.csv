@@ -1,0 +1,4 @@
+SNN,CNN,seeds,acc_diff_pts,acc_sig_wins/losses,ACC,latency_ratio_snn/cnn,LAT,energy_ratio_cnn/snn,ENERGY,overall,same_width
+SNN-L_T1_kd,CNN-L_T1_kd,1,-0.93,0/1,LOSS,1.106,LOSS,14.24,WIN,MIXED,True
+SNN-L_T2_kd,CNN-L_T1_kd,1,-0.01,0/0,TIE,1.983,LOSS,6.98,WIN,MIXED,True
+SNN-L_T3_kd,CNN-L_T1_kd,1,0.23,1/0,WIN,2.837,LOSS,4.54,WIN,MIXED,True

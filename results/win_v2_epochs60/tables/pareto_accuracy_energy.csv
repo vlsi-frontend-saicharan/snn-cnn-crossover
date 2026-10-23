@@ -1,0 +1,5 @@
+spec,kind,seeds,acc,acc_std,E_uJ,on_front
+SNN-L_T1_kd,SNN,1,97.75,0.0,7.5112,True
+SNN-L_T2_kd,SNN,1,98.67,0.0,15.3353,True
+SNN-L_T3_kd,SNN,1,98.91,0.0,23.5514,True
+CNN-L_T1_kd,CNN,1,98.68,0.0,106.9736,False

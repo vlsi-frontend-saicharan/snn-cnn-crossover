@@ -1,0 +1,10 @@
+SNN,event overhead,est. latency us,x faster than CNN-L,x faster than CNN-M,x faster than CNN-S
+SNN-L_T1_kd,1,56.4,8.64,2.22,0.57
+SNN-L_T1_kd,2,84.3,9.63,2.49,0.66
+SNN-L_T1_kd,3,112.2,7.23,1.87,0.5
+SNN-L_T2_kd,1,135.3,3.6,0.93,0.24
+SNN-L_T2_kd,2,213.5,3.8,0.98,0.26
+SNN-L_T2_kd,3,291.8,2.78,0.72,0.19
+SNN-L_T3_kd,1,233.7,2.09,0.54,0.14
+SNN-L_T3_kd,2,381.8,2.13,0.55,0.15
+SNN-L_T3_kd,3,530.0,1.53,0.4,0.11

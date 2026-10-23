@@ -1,0 +1,7 @@
+SNN,prec,E_uJ conservative,E_uJ event-driven 1st layer,x lower than CNN-L
+SNN-L_T1_kd,fp32,7.511,3.877,14.24
+SNN-L_T2_kd,fp32,15.335,6.663,6.98
+SNN-L_T3_kd,fp32,23.551,9.331,4.54
+SNN-L_T1_kd,int8,0.527,0.29,13.25
+SNN-L_T2_kd,int8,1.088,0.522,6.41
+SNN-L_T3_kd,int8,1.693,0.765,4.12

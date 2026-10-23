@@ -1,0 +1,55 @@
+{
+ "spec": "SNN-L_T1_kd",
+ "T": 1,
+ "spiking": true,
+ "threshold": 1.0,
+ "beta": 0.9,
+ "reset": "subtract",
+ "readout": "time-averaged leaky membrane",
+ "input": "log1p(event count per pixel per time bin), analog: the first layer is the encoding layer",
+ "weights": "INT8 symmetric per output channel; BatchNorm already folded; re-check accuracy after quantization",
+ "layers": [
+  {
+   "name": "conv1",
+   "type": "Conv2d",
+   "weight_shape": [
+    64,
+    2,
+    3,
+    3
+   ],
+   "nonzero_inputs_per_sample": 940.5
+  },
+  {
+   "name": "conv2",
+   "type": "Conv2d",
+   "weight_shape": [
+    128,
+    64,
+    3,
+    3
+   ],
+   "nonzero_inputs_per_sample": 454.6
+  },
+  {
+   "name": "conv3",
+   "type": "Conv2d",
+   "weight_shape": [
+    256,
+    128,
+    3,
+    3
+   ],
+   "nonzero_inputs_per_sample": 157.5
+  },
+  {
+   "name": "fc",
+   "type": "Linear",
+   "weight_shape": [
+    10,
+    4096
+   ],
+   "nonzero_inputs_per_sample": 177.6
+  }
+ ]
+}

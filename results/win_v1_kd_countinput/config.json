@@ -1,0 +1,57 @@
+{
+ "run_tag": "win_v1_kd_countinput",
+ "note": "",
+ "code_hash": "25a82c4a",
+ "epochs": 20,
+ "batch": 128,
+ "lr": 0.002,
+ "wd": 0.0001,
+ "beta": 0.9,
+ "kd_alpha": 0.7,
+ "kd_temp": 4.0,
+ "teacher_seeds": [
+  0,
+  1,
+  2
+ ],
+ "widths": {
+  "S": [
+   16,
+   32,
+   64
+  ],
+  "M": [
+   32,
+   64,
+   128
+  ],
+  "L": [
+   64,
+   128,
+   256
+  ]
+ },
+ "e_mac_pJ": 4.6,
+ "e_ac_pJ": 0.9,
+ "input_encoding": "log1p(event counts per time bin)",
+ "plan": [
+  "CNN-S_T1_kd",
+  "SNN-S_T1_kd",
+  "SNN-S_T2_kd",
+  "CNN-M_T1_kd",
+  "SNN-M_T1_kd",
+  "SNN-M_T2_kd",
+  "CNN-L_T1_kd",
+  "SNN-L_T1_kd",
+  "SNN-L_T2_kd",
+  "CNN-S_T1_nokd",
+  "CNN-M_T1_nokd",
+  "CNN-L_T1_nokd",
+  "SNN-M_T1_nokd",
+  "SNN-M_T2_nokd"
+ ],
+ "torch": "2.11.0+cu130",
+ "python": "3.13.15",
+ "gpu": "Tesla T4",
+ "time": "2026-10-22T08:41:30"
+}

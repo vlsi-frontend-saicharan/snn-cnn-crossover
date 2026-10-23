@@ -1,0 +1,107 @@
+{
+ "CNN-S_T1_kd": {
+  "eager_ms": 0.3947,
+  "graph_ms": 0.067,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ },
+ "SNN-S_T1_kd": {
+  "eager_ms": 0.7605,
+  "graph_ms": 0.0817,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ },
+ "SNN-S_T2_kd": {
+  "eager_ms": 1.4151,
+  "graph_ms": 0.1361,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ },
+ "CNN-M_T1_kd": {
+  "eager_ms": 0.4164,
+  "graph_ms": 0.0936,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ },
+ "SNN-M_T1_kd": {
+  "eager_ms": 0.7872,
+  "graph_ms": 0.1193,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ },
+ "SNN-M_T2_kd": {
+  "eager_ms": 1.4607,
+  "graph_ms": 0.2324,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ },
+ "CNN-L_T1_kd": {
+  "eager_ms": 0.3907,
+  "graph_ms": 0.1347,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ },
+ "SNN-L_T1_kd": {
+  "eager_ms": 0.7475,
+  "graph_ms": 0.1497,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ },
+ "SNN-L_T2_kd": {
+  "eager_ms": 1.4076,
+  "graph_ms": 0.2495,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ },
+ "CNN-S_T1_nokd": {
+  "eager_ms": 0.3961,
+  "graph_ms": 0.0673,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ },
+ "CNN-M_T1_nokd": {
+  "eager_ms": 0.4247,
+  "graph_ms": 0.0922,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ },
+ "CNN-L_T1_nokd": {
+  "eager_ms": 0.3954,
+  "graph_ms": 0.1347,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ },
+ "SNN-M_T1_nokd": {
+  "eager_ms": 0.7936,
+  "graph_ms": 0.1117,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ },
+ "SNN-M_T2_nokd": {
+  "eager_ms": 1.4541,
+  "graph_ms": 0.197,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ },
+ "SNN-L_T3_kd": {
+  "eager_ms": 1.9729,
+  "graph_ms": 0.366,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ }
+}
