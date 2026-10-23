@@ -1,6 +1,0 @@
-model,GPU energy uJ/inference (total),above idle uJ/inference
-CNN-L_T1_kd,13775.3,3578.7
-CNN-S_T1_kd,14687.0,3742.5
-SNN-L_T1_kd,24784.0,3461.6
-SNN-L_T2_kd,47309.7,4423.1
-SNN-L_T3_kd,60353.7,8455.7
