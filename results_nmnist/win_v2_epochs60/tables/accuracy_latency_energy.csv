@@ -1,0 +1,5 @@
+spec,kind,width,T,kd,params,seeds,acc_%,latency_eager_ms,latency_graph_ms,E_main_uJ,E_strict_uJ
+CNN-L_T1_kd,CNN,L,1,True,411210,1,98.68,0.4003,0.1346,191.15,106.974
+SNN-L_T1_kd,SNN,L,1,True,411210,1,97.75,0.76,0.1489,7.511,7.511
+SNN-L_T2_kd,SNN,L,2,True,411210,1,98.67,1.4652,0.2669,15.335,15.335
+SNN-L_T3_kd,SNN,L,3,True,411210,1,98.91,1.855,0.3818,23.551,23.551

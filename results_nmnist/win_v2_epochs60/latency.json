@@ -1,0 +1,30 @@
+{
+ "CNN-L_T1_kd": {
+  "eager_ms": 0.4003,
+  "graph_ms": 0.1346,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ },
+ "SNN-L_T1_kd": {
+  "eager_ms": 0.76,
+  "graph_ms": 0.1489,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ },
+ "SNN-L_T2_kd": {
+  "eager_ms": 1.4652,
+  "graph_ms": 0.2669,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ },
+ "SNN-L_T3_kd": {
+  "eager_ms": 1.855,
+  "graph_ms": 0.3818,
+  "rounds": 5,
+  "iters": 300,
+  "gpu": "Tesla T4"
+ }
+}
