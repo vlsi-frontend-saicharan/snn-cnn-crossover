@@ -1,0 +1,5 @@
+pair,dAcc,snn_better,cnn_better,p_per_seed,est_ratio,gpu_energy_ratio
+SNN-S T16 vs CNN-M (B2),1.5,0,0,"[1.0, 0.4049, 0.1096]",0.762,7.66
+SNN-S T16 vs CNN-L (B2),1.39,0,0,"[0.4576, 0.1698, 0.1096]",0.197,4.522
+SNN-M T16 vs CNN-L (B2),2.66,1,0,"[0.8238, 0.1096, 0.0169]",0.545,8.549
+SNN-S T8 vs CNN-M (B2),-2.08,0,0,"[0.5959, 0.0518, 0.8501]",0.393,4.032

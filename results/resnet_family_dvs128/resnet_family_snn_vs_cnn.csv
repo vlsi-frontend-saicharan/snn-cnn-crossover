@@ -1,0 +1,9 @@
+snn,vs,cnn,dAcc,snn_better,cnn_better,p_per_seed,est_ratio,Tstar_est,lat_ratio,Tstar_lat,energy_ratio,Tstar_energy
+rsnn_T2K1_w1_plain,best_CNN,rcnn_T1K1_w1_plain,-4.51,0,2,"[0.0021, 0.0485, 0.0784]",0.229,8.73,2.291,0.87,2.256,0.89
+rsnn_T2K1_w1_plain,matched_B=T,rcnn_T1K2_w1_plain,-4.05,0,2,"[0.0101, 0.0039, 0.8501]",0.226,8.83,2.278,0.88,2.282,0.88
+rsnn_T4K1_w1_plain,best_CNN,rcnn_T1K1_w1_plain,-2.08,0,1,"[0.4576, 0.7194, 0.0414]",0.46,8.69,3.597,1.11,3.948,1.01
+rsnn_T4K1_w1_plain,matched_B=T,rcnn_T1K4_w1_plain,1.39,0,0,"[0.4576, 0.6069, 0.7103]",0.437,9.16,3.573,1.12,3.82,1.05
+rsnn_T8K1_w1_plain,best_CNN,rcnn_T1K1_w1_plain,-4.4,0,2,"[0.1859, 0.0148, 0.0071]",0.919,8.7,6.319,1.27,7.564,1.06
+rsnn_T8K1_w1_plain,matched_B=T,rcnn_T1K8_w1_plain,-1.62,0,0,"[0.7277, 0.1763, 0.8597]",0.849,9.42,6.133,1.3,7.013,1.14
+rsnn_T16K1_w1_plain,best_CNN,rcnn_T1K1_w1_plain,1.85,0,0,"[0.0931, 0.4414, 0.8238]",1.798,8.9,15.609,1.03,14.733,1.09
+rsnn_T16K1_w1_plain,matched_B=T,rcnn_T1K16_w1_plain,6.83,3,0,"[0.0004, 0.0046, 0.0041]",1.519,10.53,14.314,1.12,13.408,1.19
