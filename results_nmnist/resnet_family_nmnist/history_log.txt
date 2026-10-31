@@ -1,0 +1,2 @@
+2026-10-31T04:02:12  code 25a82c4a  epochs 20  kd_alpha 0.7  kd_temp 4.0  lr 0.002
+2026-10-31T04:39:30  code 25a82c4a  epochs 20  kd_alpha 0.7  kd_temp 4.0  lr 0.002

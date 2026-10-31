@@ -1,0 +1,5 @@
+snn,cnn,dAcc,snn_better,cnn_better,p_per_seed,est_ratio_dense_cnn,Tstar_est_dense,est_ratio_zero_skip_cnn,Tstar_est_zero_skip,lat_ratio,Tstar_lat,energy_ratio,Tstar_energy
+RSNN-R_T1_nokd,RCNN-R_T1_nokd,-11.29,0,3,"[0.0, 0.0, 0.0]",0.063,15.97,0.12,8.36,1.248,0.8,0.579,1.73
+RSNN-R_T2_nokd,RCNN-R_T1_nokd,-8.22,0,3,"[0.0, 0.0, 0.0]",0.136,14.75,0.259,7.72,3.762,0.53,2.722,0.73
+RSNN-R_T3_nokd,RCNN-R_T1_nokd,-6.04,0,3,"[0.0, 0.0, 0.0]",0.213,14.08,0.407,7.37,3.466,0.87,3.541,0.85
+RSNN-R_T5_nokd,RCNN-R_T1_nokd,-4.92,0,3,"[0.0, 0.0, 0.0]",0.359,13.92,0.686,7.29,4.379,1.14,5.176,0.97

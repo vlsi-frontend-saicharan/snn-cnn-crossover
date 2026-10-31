@@ -1,0 +1,57 @@
+{
+ "RCNN-R_T1_nokd": {
+  "eager_ms": 1.1497,
+  "graph_ms": 0.201,
+  "energy_mJ": [
+   1.8317034384509903,
+   0.12675632012094412
+  ],
+  "gpu": "Tesla T4",
+  "version": "nmnist_resnet_v1",
+  "created": "2026-10-31T05:56:25"
+ },
+ "RSNN-R_T1_nokd": {
+  "eager_ms": 2.314,
+  "graph_ms": 0.2508,
+  "energy_mJ": [
+   1.0598032109824218,
+   0.04464364860207889
+  ],
+  "gpu": "Tesla T4",
+  "version": "nmnist_resnet_v1",
+  "created": "2026-10-31T05:56:25"
+ },
+ "RSNN-R_T2_nokd": {
+  "eager_ms": 4.2354,
+  "graph_ms": 0.7561,
+  "energy_mJ": [
+   4.986758086505701,
+   0.15516330999691852
+  ],
+  "gpu": "Tesla T4",
+  "version": "nmnist_resnet_v1",
+  "created": "2026-10-31T05:56:25"
+ },
+ "RSNN-R_T3_nokd": {
+  "eager_ms": 5.2895,
+  "graph_ms": 0.6967,
+  "energy_mJ": [
+   6.485968398638547,
+   0.3310951833394681
+  ],
+  "gpu": "Tesla T4",
+  "version": "nmnist_resnet_v1",
+  "created": "2026-10-31T05:56:25"
+ },
+ "RSNN-R_T5_nokd": {
+  "eager_ms": 7.5205,
+  "graph_ms": 0.8801,
+  "energy_mJ": [
+   9.480037473123373,
+   0.33590452279218763
+  ],
+  "gpu": "Tesla T4",
+  "version": "nmnist_resnet_v1",
+  "created": "2026-10-31T05:56:25"
+ }
+}
