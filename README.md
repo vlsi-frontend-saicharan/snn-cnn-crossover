@@ -33,16 +33,9 @@ Everything else (`ops/`, `code_nmnist/fpga_nmnist/`) is supporting or explorator
 - Run `python run_all.py` inside the Vivado Tcl shell, then `python tstar_r4.py` to print the table of T\*.
 - These are neuron slices, not networks. Static power and memory are excluded.
 
-## Claims and evidence
-
-`CLAIMS.md` (if present) lists each headline claim of the paper, its value, the file that supports it and the wording the evidence allows.
 
 ## Reproducibility notes
 
 - Accuracies are the last epoch of three seeds; the seeds change initialisation and data order, not the data.
 - The reference CNN of each DVS128 width is chosen on a 20% validation split of the training recordings (not subject-disjoint).
 - GPU energy values are means over 60 units (4 sessions x 3 seeds x 5 repeats) with 95% bootstrap intervals over units.
-
-## License and citation
-
-Add your license here. Please cite the paper if you use this code or data.
