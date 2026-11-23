@@ -1,0 +1,2448 @@
+{
+ "meta": {
+  "session": "sess4",
+  "gpu": "Tesla T4",
+  "start": "2026-11-15T18:12:34",
+  "batch": 64,
+  "seconds": 10,
+  "cool_s": 8,
+  "idle_s": 3.0,
+  "sampling": "one NVML power read after every batch (period = batch time)",
+  "warmup_iters": 10,
+  "order": "random per repeat",
+  "repeats": 5,
+  "end": "2026-11-15T19:48:27"
+ },
+ "rec": [
+  {
+   "model": "snn4_T16K1_w2_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 76.74375085342083,
+   "idle_W": 29.30624561403509,
+   "temp_C": 76,
+   "sm_MHz": 990
+  },
+  {
+   "model": "cnn4_T1K2_w1_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 2.0617578697926433,
+   "idle_W": 29.96456140350877,
+   "temp_C": 78,
+   "sm_MHz": 1560
+  },
+  {
+   "model": "snn4_T8K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 10.759411699943394,
+   "idle_W": 30.417,
+   "temp_C": 81,
+   "sm_MHz": 1365
+  },
+  {
+   "model": "snn4_T2K1_w2_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 10.071607025757181,
+   "idle_W": 30.81728571428572,
+   "temp_C": 80,
+   "sm_MHz": 1320
+  },
+  {
+   "model": "cnn4_T1K16_w1_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 1.118965849215548,
+   "idle_W": 30.450771929824562,
+   "temp_C": 75,
+   "sm_MHz": 1020
+  },
+  {
+   "model": "snn4_T4K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 6.261485892233986,
+   "idle_W": 30.087263157894736,
+   "temp_C": 81,
+   "sm_MHz": 1470
+  },
+  {
+   "model": "snn4_T8K1_w1_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 17.8492971470019,
+   "idle_W": 30.79463157894737,
+   "temp_C": 81,
+   "sm_MHz": 1245
+  },
+  {
+   "model": "cnn4_T1K2_w2_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 3.9854671325246884,
+   "idle_W": 30.71661403508772,
+   "temp_C": 79,
+   "sm_MHz": 1470
+  },
+  {
+   "model": "cnn4_T1K16_w0.5_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 2.0688702179272895,
+   "idle_W": 30.205105263157897,
+   "temp_C": 78,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T16K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 17.491638489500286,
+   "idle_W": 30.417000000000005,
+   "temp_C": 81,
+   "sm_MHz": 1275
+  },
+  {
+   "model": "snn4_T8K1_w2_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 38.59361541617908,
+   "idle_W": 30.723561403508775,
+   "temp_C": 80,
+   "sm_MHz": 1125
+  },
+  {
+   "model": "snn4_T4K1_w1_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 11.051031820761077,
+   "idle_W": 30.42392982456141,
+   "temp_C": 79,
+   "sm_MHz": 1290
+  },
+  {
+   "model": "cnn4_T1K16_w2_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 4.695396259329866,
+   "idle_W": 30.363157894736844,
+   "temp_C": 79,
+   "sm_MHz": 1365
+  },
+  {
+   "model": "snn4_T2K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 3.779375919709484,
+   "idle_W": 30.543649122807018,
+   "temp_C": 81,
+   "sm_MHz": 1575
+  },
+  {
+   "model": "snn4_T16K1_w1_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 36.76897593362043,
+   "idle_W": 30.621473684210528,
+   "temp_C": 79,
+   "sm_MHz": 1185
+  },
+  {
+   "model": "snn4_T4K1_w2_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 20.741599570416504,
+   "idle_W": 30.227684210526316,
+   "temp_C": 78,
+   "sm_MHz": 1155
+  },
+  {
+   "model": "snn4_T2K1_w1_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 6.198226429279438,
+   "idle_W": 30.474298245614037,
+   "temp_C": 81,
+   "sm_MHz": 1485
+  },
+  {
+   "model": "cnn4_T1K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 0,
+   "mJ": 1.5340877377463211,
+   "idle_W": 30.668245614035087,
+   "temp_C": 78,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T8K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 10.394322278228158,
+   "idle_W": 30.285000000000004,
+   "temp_C": 79,
+   "sm_MHz": 1305
+  },
+  {
+   "model": "snn4_T16K1_w2_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 71.61851684739256,
+   "idle_W": 30.63198245614035,
+   "temp_C": 80,
+   "sm_MHz": 1080
+  },
+  {
+   "model": "cnn4_T1K2_w1_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 2.25283696393044,
+   "idle_W": 30.518285714285717,
+   "temp_C": 79,
+   "sm_MHz": 1545
+  },
+  {
+   "model": "cnn4_T1K16_w0.5_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 2.18006260616904,
+   "idle_W": 30.469052631578947,
+   "temp_C": 81,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "cnn4_T1K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 1.5816921198797305,
+   "idle_W": 30.59035087719299,
+   "temp_C": 78,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T8K1_w1_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 19.00808319779041,
+   "idle_W": 30.488175438596492,
+   "temp_C": 80,
+   "sm_MHz": 1275
+  },
+  {
+   "model": "cnn4_T1K16_w2_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 4.838660047550491,
+   "idle_W": 30.587,
+   "temp_C": 79,
+   "sm_MHz": 1335
+  },
+  {
+   "model": "snn4_T16K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 17.48933453552661,
+   "idle_W": 30.380491228070177,
+   "temp_C": 79,
+   "sm_MHz": 1275
+  },
+  {
+   "model": "snn4_T16K1_w1_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 38.08414402165998,
+   "idle_W": 30.510684210526318,
+   "temp_C": 80,
+   "sm_MHz": 1125
+  },
+  {
+   "model": "snn4_T2K1_w1_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 7.062189179245096,
+   "idle_W": 30.573894736842107,
+   "temp_C": 80,
+   "sm_MHz": 1455
+  },
+  {
+   "model": "snn4_T2K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 3.9369212416675805,
+   "idle_W": 30.352736842105262,
+   "temp_C": 79,
+   "sm_MHz": 1545
+  },
+  {
+   "model": "cnn4_T1K16_w1_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 1.1776762708984478,
+   "idle_W": 30.45345614035088,
+   "temp_C": 75,
+   "sm_MHz": 1050
+  },
+  {
+   "model": "snn4_T4K1_w2_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 21.88912773222707,
+   "idle_W": 30.23463157894737,
+   "temp_C": 80,
+   "sm_MHz": 1125
+  },
+  {
+   "model": "snn4_T2K1_w2_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 10.27964558554432,
+   "idle_W": 30.780964912280705,
+   "temp_C": 81,
+   "sm_MHz": 1290
+  },
+  {
+   "model": "snn4_T4K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 6.0633479144363625,
+   "idle_W": 30.740333333333336,
+   "temp_C": 80,
+   "sm_MHz": 1440
+  },
+  {
+   "model": "snn4_T4K1_w1_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 11.649580267118425,
+   "idle_W": 30.186,
+   "temp_C": 78,
+   "sm_MHz": 1365
+  },
+  {
+   "model": "snn4_T8K1_w2_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 38.3767830887805,
+   "idle_W": 30.264157894736847,
+   "temp_C": 80,
+   "sm_MHz": 1080
+  },
+  {
+   "model": "cnn4_T1K2_w2_plain",
+   "seed": 0,
+   "repeat": 1,
+   "mJ": 3.8764788640512156,
+   "idle_W": 30.833385964912278,
+   "temp_C": 81,
+   "sm_MHz": 1440
+  },
+  {
+   "model": "cnn4_T1K2_w1_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 2.421394985823061,
+   "idle_W": 30.540736842105265,
+   "temp_C": 79,
+   "sm_MHz": 1575
+  },
+  {
+   "model": "snn4_T4K1_w1_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 10.530653290271893,
+   "idle_W": 30.397298245614035,
+   "temp_C": 79,
+   "sm_MHz": 1350
+  },
+  {
+   "model": "snn4_T2K1_w2_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 9.873644934567912,
+   "idle_W": 30.462140350877196,
+   "temp_C": 80,
+   "sm_MHz": 1305
+  },
+  {
+   "model": "cnn4_T1K16_w0.5_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 1.9713996560270266,
+   "idle_W": 30.6981052631579,
+   "temp_C": 80,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T8K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 10.534979598266608,
+   "idle_W": 30.359684210526314,
+   "temp_C": 79,
+   "sm_MHz": 1335
+  },
+  {
+   "model": "snn4_T16K1_w2_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 72.83358287419087,
+   "idle_W": 30.467333333333336,
+   "temp_C": 79,
+   "sm_MHz": 1125
+  },
+  {
+   "model": "cnn4_T1K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 1.5198298548051765,
+   "idle_W": 30.567929824561404,
+   "temp_C": 79,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T4K1_w2_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 21.069500625720664,
+   "idle_W": 30.490017857142856,
+   "temp_C": 80,
+   "sm_MHz": 1320
+  },
+  {
+   "model": "snn4_T2K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 3.8501565455743,
+   "idle_W": 30.616999999999997,
+   "temp_C": 80,
+   "sm_MHz": 1560
+  },
+  {
+   "model": "cnn4_T1K16_w2_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 4.490328229116197,
+   "idle_W": 30.33878947368421,
+   "temp_C": 78,
+   "sm_MHz": 1350
+  },
+  {
+   "model": "snn4_T16K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 17.826582546861676,
+   "idle_W": 30.425684210526317,
+   "temp_C": 80,
+   "sm_MHz": 1245
+  },
+  {
+   "model": "snn4_T8K1_w2_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 38.442117047366665,
+   "idle_W": 30.540157894736847,
+   "temp_C": 79,
+   "sm_MHz": 1185
+  },
+  {
+   "model": "cnn4_T1K16_w1_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 1.2746806313255457,
+   "idle_W": 30.43087719298246,
+   "temp_C": 76,
+   "sm_MHz": 1125
+  },
+  {
+   "model": "snn4_T2K1_w1_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 6.954471223091004,
+   "idle_W": 30.25894736842105,
+   "temp_C": 81,
+   "sm_MHz": 1455
+  },
+  {
+   "model": "snn4_T8K1_w1_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 19.954030736780144,
+   "idle_W": 30.85194736842105,
+   "temp_C": 80,
+   "sm_MHz": 1215
+  },
+  {
+   "model": "cnn4_T1K2_w2_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 4.1039725238346785,
+   "idle_W": 30.480421052631584,
+   "temp_C": 79,
+   "sm_MHz": 1440
+  },
+  {
+   "model": "snn4_T16K1_w1_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 37.07640748707308,
+   "idle_W": 30.279196428571428,
+   "temp_C": 79,
+   "sm_MHz": 1155
+  },
+  {
+   "model": "snn4_T4K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 2,
+   "mJ": 6.158098350274475,
+   "idle_W": 30.551280701754386,
+   "temp_C": 81,
+   "sm_MHz": 1470
+  },
+  {
+   "model": "cnn4_T1K16_w0.5_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 2.05945571333479,
+   "idle_W": 30.474280701754388,
+   "temp_C": 79,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T2K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 3.9751809094978956,
+   "idle_W": 30.456982456140352,
+   "temp_C": 80,
+   "sm_MHz": 1575
+  },
+  {
+   "model": "cnn4_T1K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 1.5922989744896183,
+   "idle_W": 30.42405263157895,
+   "temp_C": 79,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "cnn4_T1K2_w2_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 3.995103770399173,
+   "idle_W": 30.518,
+   "temp_C": 81,
+   "sm_MHz": 1455
+  },
+  {
+   "model": "snn4_T2K1_w1_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 7.257941725407047,
+   "idle_W": 30.63540350877193,
+   "temp_C": 80,
+   "sm_MHz": 1470
+  },
+  {
+   "model": "cnn4_T1K16_w2_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 4.944665279088804,
+   "idle_W": 30.301929824561405,
+   "temp_C": 78,
+   "sm_MHz": 1290
+  },
+  {
+   "model": "snn4_T16K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 17.545999474377926,
+   "idle_W": 30.339491228070173,
+   "temp_C": 80,
+   "sm_MHz": 1245
+  },
+  {
+   "model": "snn4_T4K1_w2_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 20.165693761497696,
+   "idle_W": 30.724192982456145,
+   "temp_C": 79,
+   "sm_MHz": 1260
+  },
+  {
+   "model": "snn4_T16K1_w2_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 73.51021438813801,
+   "idle_W": 30.283070175438596,
+   "temp_C": 79,
+   "sm_MHz": 1035
+  },
+  {
+   "model": "snn4_T8K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 9.85449606149996,
+   "idle_W": 30.49050877192983,
+   "temp_C": 80,
+   "sm_MHz": 1320
+  },
+  {
+   "model": "snn4_T2K1_w2_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 11.386615171201344,
+   "idle_W": 30.52238596491228,
+   "temp_C": 80,
+   "sm_MHz": 1275
+  },
+  {
+   "model": "snn4_T16K1_w1_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 36.54167762137888,
+   "idle_W": 30.522298245614035,
+   "temp_C": 79,
+   "sm_MHz": 1140
+  },
+  {
+   "model": "cnn4_T1K16_w1_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 1.3288196572277429,
+   "idle_W": 30.378947368421056,
+   "temp_C": 75,
+   "sm_MHz": 1020
+  },
+  {
+   "model": "cnn4_T1K2_w1_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 1.8420127528924997,
+   "idle_W": 30.177140350877192,
+   "temp_C": 79,
+   "sm_MHz": 1575
+  },
+  {
+   "model": "snn4_T4K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 6.000247422575971,
+   "idle_W": 30.62564912280702,
+   "temp_C": 83,
+   "sm_MHz": 1440
+  },
+  {
+   "model": "snn4_T8K1_w2_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 37.90872844139589,
+   "idle_W": 30.930964285714285,
+   "temp_C": 78,
+   "sm_MHz": 1080
+  },
+  {
+   "model": "snn4_T8K1_w1_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 19.931538781186745,
+   "idle_W": 30.144839285714284,
+   "temp_C": 78,
+   "sm_MHz": 1260
+  },
+  {
+   "model": "snn4_T4K1_w1_plain",
+   "seed": 0,
+   "repeat": 3,
+   "mJ": 11.685988150452193,
+   "idle_W": 30.346732142857142,
+   "temp_C": 80,
+   "sm_MHz": 1320
+  },
+  {
+   "model": "snn4_T8K1_w1_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 19.170486516601773,
+   "idle_W": 30.73036842105263,
+   "temp_C": 80,
+   "sm_MHz": 1230
+  },
+  {
+   "model": "cnn4_T1K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 1.5427896551226634,
+   "idle_W": 30.424035087719297,
+   "temp_C": 78,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T2K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 3.9379543761489675,
+   "idle_W": 30.4209649122807,
+   "temp_C": 80,
+   "sm_MHz": 1560
+  },
+  {
+   "model": "snn4_T2K1_w1_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 6.402721421541344,
+   "idle_W": 30.57312280701754,
+   "temp_C": 80,
+   "sm_MHz": 1395
+  },
+  {
+   "model": "cnn4_T1K16_w2_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 4.427775382057445,
+   "idle_W": 30.46912280701755,
+   "temp_C": 78,
+   "sm_MHz": 1350
+  },
+  {
+   "model": "cnn4_T1K16_w0.5_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 1.9709627072521567,
+   "idle_W": 30.38033333333333,
+   "temp_C": 79,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T16K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 18.372800318254495,
+   "idle_W": 30.53354385964913,
+   "temp_C": 81,
+   "sm_MHz": 1245
+  },
+  {
+   "model": "cnn4_T1K2_w1_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 2.3322029818264456,
+   "idle_W": 30.61867857142857,
+   "temp_C": 79,
+   "sm_MHz": 1560
+  },
+  {
+   "model": "cnn4_T1K16_w1_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 1.1770209191161694,
+   "idle_W": 30.379842105263158,
+   "temp_C": 75,
+   "sm_MHz": 795
+  },
+  {
+   "model": "snn4_T8K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 10.507757480341043,
+   "idle_W": 30.164684210526318,
+   "temp_C": 80,
+   "sm_MHz": 1305
+  },
+  {
+   "model": "snn4_T4K1_w2_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 20.31763088460206,
+   "idle_W": 30.773666666666667,
+   "temp_C": 81,
+   "sm_MHz": 1170
+  },
+  {
+   "model": "snn4_T4K1_w0.5_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 6.496173062521334,
+   "idle_W": 30.760140350877197,
+   "temp_C": 79,
+   "sm_MHz": 1455
+  },
+  {
+   "model": "snn4_T8K1_w2_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 38.05871274937928,
+   "idle_W": 30.127464285714286,
+   "temp_C": 77,
+   "sm_MHz": 1110
+  },
+  {
+   "model": "snn4_T2K1_w2_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 10.40684467805177,
+   "idle_W": 30.320350877192983,
+   "temp_C": 80,
+   "sm_MHz": 1305
+  },
+  {
+   "model": "snn4_T4K1_w1_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 10.221374786733309,
+   "idle_W": 30.83978947368421,
+   "temp_C": 80,
+   "sm_MHz": 1320
+  },
+  {
+   "model": "cnn4_T1K2_w2_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 4.438188622732763,
+   "idle_W": 30.386543859649116,
+   "temp_C": 79,
+   "sm_MHz": 1410
+  },
+  {
+   "model": "snn4_T16K1_w2_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 73.0360116589909,
+   "idle_W": 30.33771929824561,
+   "temp_C": 79,
+   "sm_MHz": 990
+  },
+  {
+   "model": "snn4_T16K1_w1_plain",
+   "seed": 0,
+   "repeat": 4,
+   "mJ": 37.68338685925756,
+   "idle_W": 30.568894736842104,
+   "temp_C": 80,
+   "sm_MHz": 1155
+  },
+  {
+   "model": "cnn4_T1K16_w1_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 1.6610050005387935,
+   "idle_W": 30.425124999999998,
+   "temp_C": 76,
+   "sm_MHz": 1050
+  },
+  {
+   "model": "snn4_T8K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 10.046986637556907,
+   "idle_W": 30.260263157894734,
+   "temp_C": 80,
+   "sm_MHz": 1320
+  },
+  {
+   "model": "snn4_T16K1_w2_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 70.34930799772964,
+   "idle_W": 30.876315789473686,
+   "temp_C": 81,
+   "sm_MHz": 1005
+  },
+  {
+   "model": "snn4_T4K1_w2_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 21.124731306712235,
+   "idle_W": 30.53963157894737,
+   "temp_C": 78,
+   "sm_MHz": 1155
+  },
+  {
+   "model": "snn4_T4K1_w1_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 10.656325082667948,
+   "idle_W": 30.205160714285714,
+   "temp_C": 78,
+   "sm_MHz": 1335
+  },
+  {
+   "model": "cnn4_T1K16_w0.5_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 2.061776228961987,
+   "idle_W": 30.439929824561407,
+   "temp_C": 81,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "cnn4_T1K2_w2_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 4.315549310081227,
+   "idle_W": 30.880333333333336,
+   "temp_C": 79,
+   "sm_MHz": 1350
+  },
+  {
+   "model": "snn4_T16K1_w1_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 36.865533291982274,
+   "idle_W": 30.231877192982452,
+   "temp_C": 78,
+   "sm_MHz": 1230
+  },
+  {
+   "model": "cnn4_T1K16_w2_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 4.5742137484327205,
+   "idle_W": 30.459964912280704,
+   "temp_C": 79,
+   "sm_MHz": 1335
+  },
+  {
+   "model": "snn4_T2K1_w1_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 6.910039066892288,
+   "idle_W": 30.481982456140354,
+   "temp_C": 81,
+   "sm_MHz": 1470
+  },
+  {
+   "model": "snn4_T2K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 3.946969921982338,
+   "idle_W": 30.573192982456142,
+   "temp_C": 79,
+   "sm_MHz": 1560
+  },
+  {
+   "model": "snn4_T4K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 5.688439493272505,
+   "idle_W": 30.21844642857143,
+   "temp_C": 80,
+   "sm_MHz": 1515
+  },
+  {
+   "model": "snn4_T8K1_w2_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 37.85455607873942,
+   "idle_W": 30.50777192982456,
+   "temp_C": 79,
+   "sm_MHz": 1080
+  },
+  {
+   "model": "snn4_T2K1_w2_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 10.792893877781676,
+   "idle_W": 30.400929824561405,
+   "temp_C": 79,
+   "sm_MHz": 1320
+  },
+  {
+   "model": "cnn4_T1K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 1.5763257012981409,
+   "idle_W": 30.597964285714284,
+   "temp_C": 79,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T16K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 17.84814264942772,
+   "idle_W": 30.42642105263158,
+   "temp_C": 80,
+   "sm_MHz": 1260
+  },
+  {
+   "model": "snn4_T8K1_w1_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 20.48427960802221,
+   "idle_W": 30.59171929824561,
+   "temp_C": 79,
+   "sm_MHz": 1290
+  },
+  {
+   "model": "cnn4_T1K2_w1_plain",
+   "seed": 1,
+   "repeat": 0,
+   "mJ": 2.255990011563613,
+   "idle_W": 30.373754385964915,
+   "temp_C": 79,
+   "sm_MHz": 1575
+  },
+  {
+   "model": "snn4_T8K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 9.466033296501486,
+   "idle_W": 30.51077192982456,
+   "temp_C": 80,
+   "sm_MHz": 1335
+  },
+  {
+   "model": "cnn4_T1K2_w1_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 2.4316469834144514,
+   "idle_W": 30.76359649122807,
+   "temp_C": 80,
+   "sm_MHz": 1575
+  },
+  {
+   "model": "cnn4_T1K16_w0.5_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 2.028694915645337,
+   "idle_W": 30.374684210526315,
+   "temp_C": 79,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T2K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 3.8359628276618163,
+   "idle_W": 30.423754385964916,
+   "temp_C": 80,
+   "sm_MHz": 1500
+  },
+  {
+   "model": "cnn4_T1K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 1.5997445371801413,
+   "idle_W": 30.602684210526313,
+   "temp_C": 79,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T4K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 6.013237805922879,
+   "idle_W": 30.428228070175436,
+   "temp_C": 81,
+   "sm_MHz": 1500
+  },
+  {
+   "model": "snn4_T16K1_w2_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 71.64646967547723,
+   "idle_W": 30.576192982456142,
+   "temp_C": 79,
+   "sm_MHz": 1065
+  },
+  {
+   "model": "snn4_T2K1_w2_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 11.725349008347644,
+   "idle_W": 30.353456140350875,
+   "temp_C": 79,
+   "sm_MHz": 1290
+  },
+  {
+   "model": "cnn4_T1K2_w2_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 4.394878476036738,
+   "idle_W": 30.45622807017544,
+   "temp_C": 80,
+   "sm_MHz": 1365
+  },
+  {
+   "model": "snn4_T16K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 17.235294114867447,
+   "idle_W": 30.624122807017542,
+   "temp_C": 79,
+   "sm_MHz": 1290
+  },
+  {
+   "model": "snn4_T4K1_w1_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 10.869239699494289,
+   "idle_W": 30.42173684210526,
+   "temp_C": 79,
+   "sm_MHz": 1365
+  },
+  {
+   "model": "snn4_T16K1_w1_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 37.14130096683029,
+   "idle_W": 30.41091228070175,
+   "temp_C": 80,
+   "sm_MHz": 1140
+  },
+  {
+   "model": "snn4_T8K1_w1_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 21.2549211003835,
+   "idle_W": 30.55426315789474,
+   "temp_C": 80,
+   "sm_MHz": 1275
+  },
+  {
+   "model": "cnn4_T1K16_w1_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 1.2214964983185486,
+   "idle_W": 30.507210526315795,
+   "temp_C": 75,
+   "sm_MHz": 1020
+  },
+  {
+   "model": "snn4_T8K1_w2_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 37.95062069458799,
+   "idle_W": 30.15143859649123,
+   "temp_C": 80,
+   "sm_MHz": 1080
+  },
+  {
+   "model": "snn4_T2K1_w1_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 6.533564305223267,
+   "idle_W": 30.829368421052635,
+   "temp_C": 82,
+   "sm_MHz": 1455
+  },
+  {
+   "model": "cnn4_T1K16_w2_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 4.705461910078768,
+   "idle_W": 30.766508771929825,
+   "temp_C": 78,
+   "sm_MHz": 1350
+  },
+  {
+   "model": "snn4_T4K1_w2_plain",
+   "seed": 1,
+   "repeat": 1,
+   "mJ": 21.463734450232018,
+   "idle_W": 30.00671428571429,
+   "temp_C": 78,
+   "sm_MHz": 1290
+  },
+  {
+   "model": "cnn4_T1K2_w1_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 2.4794778333691623,
+   "idle_W": 30.334894736842106,
+   "temp_C": 80,
+   "sm_MHz": 1530
+  },
+  {
+   "model": "snn4_T2K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 3.8864703694289995,
+   "idle_W": 30.74668421052632,
+   "temp_C": 82,
+   "sm_MHz": 1575
+  },
+  {
+   "model": "cnn4_T1K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 1.6066108218435484,
+   "idle_W": 30.703666666666667,
+   "temp_C": 78,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "cnn4_T1K16_w1_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 1.4457274204148522,
+   "idle_W": 30.164789473684213,
+   "temp_C": 75,
+   "sm_MHz": 1020
+  },
+  {
+   "model": "snn4_T4K1_w1_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 10.62735292015547,
+   "idle_W": 30.157589285714288,
+   "temp_C": 80,
+   "sm_MHz": 1335
+  },
+  {
+   "model": "cnn4_T1K16_w0.5_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 2.1697982958172,
+   "idle_W": 30.733929824561404,
+   "temp_C": 82,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T16K1_w2_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 71.45530814256936,
+   "idle_W": 30.96943859649123,
+   "temp_C": 79,
+   "sm_MHz": 1020
+  },
+  {
+   "model": "cnn4_T1K16_w2_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 4.544459788604171,
+   "idle_W": 30.09869642857143,
+   "temp_C": 78,
+   "sm_MHz": 1365
+  },
+  {
+   "model": "snn4_T2K1_w1_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 7.095716803698115,
+   "idle_W": 30.363035087719297,
+   "temp_C": 80,
+   "sm_MHz": 1425
+  },
+  {
+   "model": "snn4_T8K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 10.081543358084474,
+   "idle_W": 30.676561403508774,
+   "temp_C": 80,
+   "sm_MHz": 1350
+  },
+  {
+   "model": "snn4_T4K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 5.731741684392142,
+   "idle_W": 30.409087719298245,
+   "temp_C": 80,
+   "sm_MHz": 1470
+  },
+  {
+   "model": "snn4_T4K1_w2_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 20.340620026872696,
+   "idle_W": 30.533736842105263,
+   "temp_C": 78,
+   "sm_MHz": 1290
+  },
+  {
+   "model": "snn4_T8K1_w1_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 19.958529099931848,
+   "idle_W": 30.327456140350876,
+   "temp_C": 80,
+   "sm_MHz": 1275
+  },
+  {
+   "model": "cnn4_T1K2_w2_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 3.784797022431933,
+   "idle_W": 30.71380701754386,
+   "temp_C": 80,
+   "sm_MHz": 1500
+  },
+  {
+   "model": "snn4_T16K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 18.1779041647429,
+   "idle_W": 30.50028070175439,
+   "temp_C": 80,
+   "sm_MHz": 1260
+  },
+  {
+   "model": "snn4_T8K1_w2_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 37.872707366361595,
+   "idle_W": 30.405315789473683,
+   "temp_C": 79,
+   "sm_MHz": 1170
+  },
+  {
+   "model": "snn4_T16K1_w1_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 37.66472488220696,
+   "idle_W": 30.43066666666667,
+   "temp_C": 80,
+   "sm_MHz": 1125
+  },
+  {
+   "model": "snn4_T2K1_w2_plain",
+   "seed": 1,
+   "repeat": 2,
+   "mJ": 11.23167110588871,
+   "idle_W": 30.662719298245612,
+   "temp_C": 80,
+   "sm_MHz": 1320
+  },
+  {
+   "model": "snn4_T16K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 18.480313956302112,
+   "idle_W": 30.38477192982456,
+   "temp_C": 79,
+   "sm_MHz": 1260
+  },
+  {
+   "model": "cnn4_T1K16_w2_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 4.6506263544892565,
+   "idle_W": 30.444571428571432,
+   "temp_C": 79,
+   "sm_MHz": 1365
+  },
+  {
+   "model": "snn4_T2K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 3.85666574100518,
+   "idle_W": 30.432456140350876,
+   "temp_C": 80,
+   "sm_MHz": 1575
+  },
+  {
+   "model": "snn4_T2K1_w2_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 11.149274178138466,
+   "idle_W": 30.533157894736846,
+   "temp_C": 79,
+   "sm_MHz": 1290
+  },
+  {
+   "model": "cnn4_T1K16_w0.5_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 2.0971274938337574,
+   "idle_W": 30.387842105263154,
+   "temp_C": 79,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T16K1_w2_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 72.43137216395218,
+   "idle_W": 30.50363157894737,
+   "temp_C": 80,
+   "sm_MHz": 960
+  },
+  {
+   "model": "snn4_T8K1_w2_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 37.352903376970325,
+   "idle_W": 30.686228070175435,
+   "temp_C": 79,
+   "sm_MHz": 1095
+  },
+  {
+   "model": "snn4_T4K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 5.978480345358178,
+   "idle_W": 30.39180701754386,
+   "temp_C": 80,
+   "sm_MHz": 1500
+  },
+  {
+   "model": "cnn4_T1K2_w2_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 4.00019011158577,
+   "idle_W": 30.37031578947368,
+   "temp_C": 79,
+   "sm_MHz": 1410
+  },
+  {
+   "model": "snn4_T8K1_w1_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 18.048669004158732,
+   "idle_W": 30.47635087719299,
+   "temp_C": 80,
+   "sm_MHz": 1215
+  },
+  {
+   "model": "cnn4_T1K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 1.5983908243111475,
+   "idle_W": 30.67226315789474,
+   "temp_C": 79,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T16K1_w1_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 38.30183865914649,
+   "idle_W": 30.351614035087717,
+   "temp_C": 80,
+   "sm_MHz": 1245
+  },
+  {
+   "model": "snn4_T4K1_w1_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 11.186353602534764,
+   "idle_W": 30.628859649122802,
+   "temp_C": 79,
+   "sm_MHz": 1305
+  },
+  {
+   "model": "cnn4_T1K16_w1_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 1.5952351894407,
+   "idle_W": 30.414877192982456,
+   "temp_C": 76,
+   "sm_MHz": 1020
+  },
+  {
+   "model": "snn4_T2K1_w1_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 6.546518409735813,
+   "idle_W": 30.30050877192982,
+   "temp_C": 81,
+   "sm_MHz": 1440
+  },
+  {
+   "model": "snn4_T4K1_w2_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 20.07111406333218,
+   "idle_W": 30.8959649122807,
+   "temp_C": 80,
+   "sm_MHz": 1260
+  },
+  {
+   "model": "snn4_T8K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 10.662656137267295,
+   "idle_W": 30.39659649122807,
+   "temp_C": 78,
+   "sm_MHz": 1365
+  },
+  {
+   "model": "cnn4_T1K2_w1_plain",
+   "seed": 1,
+   "repeat": 3,
+   "mJ": 2.1890996648327166,
+   "idle_W": 30.300785714285716,
+   "temp_C": 78,
+   "sm_MHz": 1560
+  },
+  {
+   "model": "cnn4_T1K2_w1_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 2.3009440705800572,
+   "idle_W": 30.463842105263158,
+   "temp_C": 81,
+   "sm_MHz": 1560
+  },
+  {
+   "model": "snn4_T2K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 4.0811858638278595,
+   "idle_W": 30.865596491228068,
+   "temp_C": 82,
+   "sm_MHz": 1530
+  },
+  {
+   "model": "snn4_T16K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 17.410000799413222,
+   "idle_W": 30.538280701754392,
+   "temp_C": 79,
+   "sm_MHz": 1275
+  },
+  {
+   "model": "snn4_T4K1_w1_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 10.511337829168665,
+   "idle_W": 30.17496428571428,
+   "temp_C": 78,
+   "sm_MHz": 1380
+  },
+  {
+   "model": "snn4_T8K1_w1_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 20.21561994839032,
+   "idle_W": 30.327491228070176,
+   "temp_C": 81,
+   "sm_MHz": 1215
+  },
+  {
+   "model": "snn4_T8K1_w2_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 38.03686668647001,
+   "idle_W": 30.886438596491228,
+   "temp_C": 80,
+   "sm_MHz": 1185
+  },
+  {
+   "model": "cnn4_T1K2_w2_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 3.762407689104958,
+   "idle_W": 30.468596491228073,
+   "temp_C": 79,
+   "sm_MHz": 1485
+  },
+  {
+   "model": "cnn4_T1K16_w1_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 1.3379891837743954,
+   "idle_W": 30.32830357142857,
+   "temp_C": 74,
+   "sm_MHz": 795
+  },
+  {
+   "model": "snn4_T8K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 9.788914883190374,
+   "idle_W": 30.04931578947368,
+   "temp_C": 80,
+   "sm_MHz": 1395
+  },
+  {
+   "model": "snn4_T2K1_w2_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 10.566053895249725,
+   "idle_W": 30.686842105263157,
+   "temp_C": 82,
+   "sm_MHz": 1320
+  },
+  {
+   "model": "cnn4_T1K16_w2_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 4.830519246433602,
+   "idle_W": 31.01563157894737,
+   "temp_C": 79,
+   "sm_MHz": 1365
+  },
+  {
+   "model": "snn4_T4K1_w2_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 20.716919714459955,
+   "idle_W": 30.11873214285714,
+   "temp_C": 78,
+   "sm_MHz": 1200
+  },
+  {
+   "model": "snn4_T16K1_w2_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 71.59127861109694,
+   "idle_W": 30.308,
+   "temp_C": 80,
+   "sm_MHz": 945
+  },
+  {
+   "model": "cnn4_T1K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 1.604104317248272,
+   "idle_W": 30.87601754385965,
+   "temp_C": 80,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "cnn4_T1K16_w0.5_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 2.055151423487572,
+   "idle_W": 30.45229824561404,
+   "temp_C": 79,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T16K1_w1_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 37.442722846522535,
+   "idle_W": 30.48084210526316,
+   "temp_C": 79,
+   "sm_MHz": 1185
+  },
+  {
+   "model": "snn4_T2K1_w1_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 7.054678079294648,
+   "idle_W": 30.424614035087718,
+   "temp_C": 80,
+   "sm_MHz": 1485
+  },
+  {
+   "model": "snn4_T4K1_w0.5_plain",
+   "seed": 1,
+   "repeat": 4,
+   "mJ": 6.2503366411496035,
+   "idle_W": 30.58298245614035,
+   "temp_C": 80,
+   "sm_MHz": 1485
+  },
+  {
+   "model": "snn4_T8K1_w1_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 17.157977526443986,
+   "idle_W": 30.34015789473684,
+   "temp_C": 78,
+   "sm_MHz": 1245
+  },
+  {
+   "model": "cnn4_T1K16_w2_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 4.695455813894199,
+   "idle_W": 30.44477192982456,
+   "temp_C": 79,
+   "sm_MHz": 1335
+  },
+  {
+   "model": "cnn4_T1K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 1.6170939222464538,
+   "idle_W": 30.50970175438597,
+   "temp_C": 79,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T4K1_w2_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 20.41055236054223,
+   "idle_W": 30.548701754385963,
+   "temp_C": 80,
+   "sm_MHz": 1125
+  },
+  {
+   "model": "snn4_T4K1_w1_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 10.721437361608636,
+   "idle_W": 30.489701754385965,
+   "temp_C": 79,
+   "sm_MHz": 1365
+  },
+  {
+   "model": "snn4_T8K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 11.028254887367618,
+   "idle_W": 30.45085964912281,
+   "temp_C": 79,
+   "sm_MHz": 1290
+  },
+  {
+   "model": "snn4_T8K1_w2_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 38.701098734585436,
+   "idle_W": 30.36391228070175,
+   "temp_C": 79,
+   "sm_MHz": 1065
+  },
+  {
+   "model": "snn4_T2K1_w2_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 11.163004755714667,
+   "idle_W": 30.68138596491228,
+   "temp_C": 80,
+   "sm_MHz": 1290
+  },
+  {
+   "model": "cnn4_T1K16_w0.5_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 2.1414615683297837,
+   "idle_W": 30.371017543859647,
+   "temp_C": 79,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "cnn4_T1K2_w1_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 2.1253792360723263,
+   "idle_W": 30.546660714285714,
+   "temp_C": 79,
+   "sm_MHz": 1575
+  },
+  {
+   "model": "snn4_T2K1_w1_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 6.860517700978813,
+   "idle_W": 30.495684210526317,
+   "temp_C": 81,
+   "sm_MHz": 1440
+  },
+  {
+   "model": "snn4_T2K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 4.134991861641394,
+   "idle_W": 30.610894736842102,
+   "temp_C": 79,
+   "sm_MHz": 1575
+  },
+  {
+   "model": "cnn4_T1K16_w1_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 1.314623873466629,
+   "idle_W": 30.28719642857143,
+   "temp_C": 74,
+   "sm_MHz": 795
+  },
+  {
+   "model": "snn4_T16K1_w2_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 73.71105135297374,
+   "idle_W": 30.07970175438596,
+   "temp_C": 80,
+   "sm_MHz": 1050
+  },
+  {
+   "model": "snn4_T16K1_w1_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 36.14731241762105,
+   "idle_W": 30.78484210526316,
+   "temp_C": 82,
+   "sm_MHz": 1215
+  },
+  {
+   "model": "snn4_T4K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 6.074875035912678,
+   "idle_W": 30.872877192982454,
+   "temp_C": 80,
+   "sm_MHz": 1470
+  },
+  {
+   "model": "snn4_T16K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 17.301274875294567,
+   "idle_W": 30.107767857142854,
+   "temp_C": 78,
+   "sm_MHz": 1305
+  },
+  {
+   "model": "cnn4_T1K2_w2_plain",
+   "seed": 2,
+   "repeat": 0,
+   "mJ": 4.2006440532102,
+   "idle_W": 30.269196428571426,
+   "temp_C": 79,
+   "sm_MHz": 1485
+  },
+  {
+   "model": "snn4_T16K1_w1_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 36.62490572559396,
+   "idle_W": 30.536631578947368,
+   "temp_C": 81,
+   "sm_MHz": 1095
+  },
+  {
+   "model": "cnn4_T1K2_w1_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 2.3414096177131287,
+   "idle_W": 30.76189473684211,
+   "temp_C": 80,
+   "sm_MHz": 1575
+  },
+  {
+   "model": "snn4_T16K1_w2_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 70.90110402372291,
+   "idle_W": 30.454035087719305,
+   "temp_C": 78,
+   "sm_MHz": 990
+  },
+  {
+   "model": "cnn4_T1K16_w0.5_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 2.0696341279905615,
+   "idle_W": 30.37557894736842,
+   "temp_C": 80,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T4K1_w1_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 9.48056403801431,
+   "idle_W": 30.660999999999998,
+   "temp_C": 80,
+   "sm_MHz": 1350
+  },
+  {
+   "model": "snn4_T2K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 3.7678726171599837,
+   "idle_W": 30.461982142857146,
+   "temp_C": 80,
+   "sm_MHz": 1575
+  },
+  {
+   "model": "snn4_T8K1_w1_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 20.427248574202,
+   "idle_W": 30.433666666666664,
+   "temp_C": 78,
+   "sm_MHz": 1290
+  },
+  {
+   "model": "snn4_T8K1_w2_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 38.89416547373572,
+   "idle_W": 30.32135087719298,
+   "temp_C": 80,
+   "sm_MHz": 1155
+  },
+  {
+   "model": "snn4_T4K1_w2_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 20.207683784035225,
+   "idle_W": 30.767561403508775,
+   "temp_C": 80,
+   "sm_MHz": 1230
+  },
+  {
+   "model": "snn4_T16K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 18.384133446392077,
+   "idle_W": 30.376526315789473,
+   "temp_C": 79,
+   "sm_MHz": 1260
+  },
+  {
+   "model": "snn4_T8K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 9.85707315404151,
+   "idle_W": 30.425736842105263,
+   "temp_C": 78,
+   "sm_MHz": 1365
+  },
+  {
+   "model": "cnn4_T1K16_w2_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 4.545836058799778,
+   "idle_W": 30.37747368421053,
+   "temp_C": 80,
+   "sm_MHz": 1305
+  },
+  {
+   "model": "cnn4_T1K2_w2_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 4.351641914067495,
+   "idle_W": 30.752877192982456,
+   "temp_C": 80,
+   "sm_MHz": 1410
+  },
+  {
+   "model": "snn4_T4K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 5.880790847411954,
+   "idle_W": 30.37810526315789,
+   "temp_C": 80,
+   "sm_MHz": 1455
+  },
+  {
+   "model": "cnn4_T1K16_w1_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 1.295605647472205,
+   "idle_W": 30.345614035087717,
+   "temp_C": 75,
+   "sm_MHz": 1020
+  },
+  {
+   "model": "snn4_T2K1_w1_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 7.411757575670493,
+   "idle_W": 30.114421052631577,
+   "temp_C": 80,
+   "sm_MHz": 1470
+  },
+  {
+   "model": "cnn4_T1K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 1.608547804087617,
+   "idle_W": 30.693508771929828,
+   "temp_C": 81,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T2K1_w2_plain",
+   "seed": 2,
+   "repeat": 1,
+   "mJ": 10.050757101162562,
+   "idle_W": 30.904631578947367,
+   "temp_C": 79,
+   "sm_MHz": 1305
+  },
+  {
+   "model": "snn4_T4K1_w1_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 11.527108678818198,
+   "idle_W": 30.255321428571428,
+   "temp_C": 78,
+   "sm_MHz": 1350
+  },
+  {
+   "model": "snn4_T4K1_w2_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 21.040506050365487,
+   "idle_W": 30.316438596491224,
+   "temp_C": 79,
+   "sm_MHz": 1260
+  },
+  {
+   "model": "cnn4_T1K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 1.5868138191878707,
+   "idle_W": 30.728105263157893,
+   "temp_C": 80,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "cnn4_T1K16_w1_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 1.2004997182916903,
+   "idle_W": 30.522912280701757,
+   "temp_C": 75,
+   "sm_MHz": 795
+  },
+  {
+   "model": "snn4_T16K1_w1_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 36.371917425594454,
+   "idle_W": 30.248250000000002,
+   "temp_C": 81,
+   "sm_MHz": 1230
+  },
+  {
+   "model": "snn4_T16K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 17.062567439614934,
+   "idle_W": 30.850210526315788,
+   "temp_C": 82,
+   "sm_MHz": 1230
+  },
+  {
+   "model": "cnn4_T1K2_w1_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 2.207907325477998,
+   "idle_W": 30.663701754385965,
+   "temp_C": 78,
+   "sm_MHz": 1575
+  },
+  {
+   "model": "snn4_T2K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 4.072946280002311,
+   "idle_W": 30.17819642857143,
+   "temp_C": 79,
+   "sm_MHz": 1575
+  },
+  {
+   "model": "snn4_T16K1_w2_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 71.20151450491343,
+   "idle_W": 30.496561403508778,
+   "temp_C": 80,
+   "sm_MHz": 1020
+  },
+  {
+   "model": "snn4_T4K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 6.569184959359078,
+   "idle_W": 30.728754385964912,
+   "temp_C": 80,
+   "sm_MHz": 1485
+  },
+  {
+   "model": "cnn4_T1K16_w0.5_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 2.087463626430215,
+   "idle_W": 30.307456140350876,
+   "temp_C": 78,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T8K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 9.906424054531842,
+   "idle_W": 30.273315789473685,
+   "temp_C": 79,
+   "sm_MHz": 1305
+  },
+  {
+   "model": "snn4_T8K1_w1_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 19.138622791515704,
+   "idle_W": 30.637571428571423,
+   "temp_C": 81,
+   "sm_MHz": 1260
+  },
+  {
+   "model": "snn4_T2K1_w1_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 7.180078349824748,
+   "idle_W": 30.592508771929822,
+   "temp_C": 80,
+   "sm_MHz": 1440
+  },
+  {
+   "model": "cnn4_T1K16_w2_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 4.96089320826926,
+   "idle_W": 30.271839285714286,
+   "temp_C": 78,
+   "sm_MHz": 1365
+  },
+  {
+   "model": "snn4_T2K1_w2_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 10.403152364606356,
+   "idle_W": 30.311892857142855,
+   "temp_C": 79,
+   "sm_MHz": 1305
+  },
+  {
+   "model": "cnn4_T1K2_w2_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 4.101781879228687,
+   "idle_W": 30.654105263157895,
+   "temp_C": 80,
+   "sm_MHz": 1335
+  },
+  {
+   "model": "snn4_T8K1_w2_plain",
+   "seed": 2,
+   "repeat": 2,
+   "mJ": 38.12242271716837,
+   "idle_W": 30.494035087719304,
+   "temp_C": 79,
+   "sm_MHz": 1080
+  },
+  {
+   "model": "cnn4_T1K16_w0.5_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 2.0008711458111414,
+   "idle_W": 30.500803571428573,
+   "temp_C": 79,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T16K1_w2_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 71.78542902946882,
+   "idle_W": 30.48085964912281,
+   "temp_C": 79,
+   "sm_MHz": 960
+  },
+  {
+   "model": "snn4_T16K1_w1_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 36.38316272885953,
+   "idle_W": 30.424491228070178,
+   "temp_C": 79,
+   "sm_MHz": 1155
+  },
+  {
+   "model": "snn4_T2K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 3.837744674836967,
+   "idle_W": 30.5489298245614,
+   "temp_C": 80,
+   "sm_MHz": 1575
+  },
+  {
+   "model": "cnn4_T1K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 1.5557363553518087,
+   "idle_W": 30.450350877192985,
+   "temp_C": 78,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "snn4_T4K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 6.28011060253759,
+   "idle_W": 30.331070175438594,
+   "temp_C": 81,
+   "sm_MHz": 1470
+  },
+  {
+   "model": "snn4_T2K1_w2_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 9.813548084780004,
+   "idle_W": 30.69210526315789,
+   "temp_C": 79,
+   "sm_MHz": 1290
+  },
+  {
+   "model": "snn4_T8K1_w1_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 20.453034867626943,
+   "idle_W": 30.382438596491223,
+   "temp_C": 79,
+   "sm_MHz": 1290
+  },
+  {
+   "model": "snn4_T4K1_w2_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 21.385887440720875,
+   "idle_W": 30.44285964912281,
+   "temp_C": 79,
+   "sm_MHz": 1260
+  },
+  {
+   "model": "cnn4_T1K2_w1_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 2.061163457749153,
+   "idle_W": 30.457754385964915,
+   "temp_C": 80,
+   "sm_MHz": 1575
+  },
+  {
+   "model": "cnn4_T1K16_w1_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 1.6684579625905593,
+   "idle_W": 30.764087719298242,
+   "temp_C": 78,
+   "sm_MHz": 1215
+  },
+  {
+   "model": "snn4_T4K1_w1_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 11.048826945261657,
+   "idle_W": 30.458807017543865,
+   "temp_C": 81,
+   "sm_MHz": 1350
+  },
+  {
+   "model": "snn4_T8K1_w2_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 38.14075115130028,
+   "idle_W": 30.777070175438602,
+   "temp_C": 79,
+   "sm_MHz": 1230
+  },
+  {
+   "model": "snn4_T8K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 9.729443970698453,
+   "idle_W": 30.364821428571425,
+   "temp_C": 79,
+   "sm_MHz": 1350
+  },
+  {
+   "model": "cnn4_T1K16_w2_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 5.028646917328948,
+   "idle_W": 30.37305263157895,
+   "temp_C": 79,
+   "sm_MHz": 1380
+  },
+  {
+   "model": "cnn4_T1K2_w2_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 4.123350406186488,
+   "idle_W": 30.555210526315793,
+   "temp_C": 80,
+   "sm_MHz": 1395
+  },
+  {
+   "model": "snn4_T2K1_w1_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 7.006925714527496,
+   "idle_W": 30.499280701754387,
+   "temp_C": 80,
+   "sm_MHz": 1470
+  },
+  {
+   "model": "snn4_T16K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 3,
+   "mJ": 17.692944775530805,
+   "idle_W": 30.52331578947369,
+   "temp_C": 79,
+   "sm_MHz": 1290
+  },
+  {
+   "model": "snn4_T16K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 18.09913807066099,
+   "idle_W": 30.26805357142857,
+   "temp_C": 79,
+   "sm_MHz": 1260
+  },
+  {
+   "model": "snn4_T4K1_w1_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 9.780245159548098,
+   "idle_W": 30.560771929824565,
+   "temp_C": 79,
+   "sm_MHz": 1305
+  },
+  {
+   "model": "cnn4_T1K16_w0.5_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 2.102362832658988,
+   "idle_W": 30.444701754385964,
+   "temp_C": 80,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "cnn4_T1K16_w2_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 4.866813356834972,
+   "idle_W": 30.589000000000002,
+   "temp_C": 80,
+   "sm_MHz": 1380
+  },
+  {
+   "model": "cnn4_T1K2_w1_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 2.0605313769187683,
+   "idle_W": 30.395192982456138,
+   "temp_C": 79,
+   "sm_MHz": 1575
+  },
+  {
+   "model": "snn4_T2K1_w2_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 11.416823955267411,
+   "idle_W": 30.54322807017544,
+   "temp_C": 81,
+   "sm_MHz": 1305
+  },
+  {
+   "model": "snn4_T8K1_w2_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 37.35907627017017,
+   "idle_W": 30.8619298245614,
+   "temp_C": 79,
+   "sm_MHz": 1170
+  },
+  {
+   "model": "cnn4_T1K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 1.5112683973707146,
+   "idle_W": 30.26573214285714,
+   "temp_C": 77,
+   "sm_MHz": 1590
+  },
+  {
+   "model": "cnn4_T1K2_w2_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 4.006243889584444,
+   "idle_W": 30.332070175438595,
+   "temp_C": 80,
+   "sm_MHz": 1470
+  },
+  {
+   "model": "snn4_T2K1_w1_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 6.948110292238588,
+   "idle_W": 30.742052631578947,
+   "temp_C": 81,
+   "sm_MHz": 1500
+  },
+  {
+   "model": "snn4_T8K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 9.625184544706597,
+   "idle_W": 30.523999999999997,
+   "temp_C": 78,
+   "sm_MHz": 1305
+  },
+  {
+   "model": "snn4_T16K1_w1_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 37.770169217029064,
+   "idle_W": 30.256874999999997,
+   "temp_C": 79,
+   "sm_MHz": 1245
+  },
+  {
+   "model": "cnn4_T1K16_w1_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 1.4130517925298158,
+   "idle_W": 30.556464285714288,
+   "temp_C": 77,
+   "sm_MHz": 1020
+  },
+  {
+   "model": "snn4_T8K1_w1_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 19.161598297217086,
+   "idle_W": 30.457719298245618,
+   "temp_C": 81,
+   "sm_MHz": 1245
+  },
+  {
+   "model": "snn4_T4K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 6.264999176561178,
+   "idle_W": 30.949543859649122,
+   "temp_C": 81,
+   "sm_MHz": 1530
+  },
+  {
+   "model": "snn4_T16K1_w2_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 73.79543358564608,
+   "idle_W": 30.373196428571426,
+   "temp_C": 78,
+   "sm_MHz": 1155
+  },
+  {
+   "model": "snn4_T2K1_w0.5_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 3.9698744768569325,
+   "idle_W": 30.133526315789474,
+   "temp_C": 79,
+   "sm_MHz": 1560
+  },
+  {
+   "model": "snn4_T4K1_w2_plain",
+   "seed": 2,
+   "repeat": 4,
+   "mJ": 19.948466293379287,
+   "idle_W": 30.56740350877193,
+   "temp_C": 80,
+   "sm_MHz": 1200
+  }
+ ]
+}
